@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore | Premium Tech</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Главная</a></li>
+                <li><a href="#products" class="nav-link">Ассортимент</a></li>
+                <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Главная -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1 class="hero-title">
+                <span class="gradient-text">Tech</span>Store
+            </h1>
+            <p class="hero-subtitle">Премиум-гаджеты с доставкой</p>
+        </div>
+    </section>
+
+    <!-- Ассортимент -->
+    <section id="products" class="products">
+        <h2 class="section-title" data-aos="fade-up">Наши топ-модели</h2>
+        <div class="product-grid" id="product-container">
+            <!-- Товары загрузятся автоматически -->
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section id="reviews" class="reviews">
+        <div class="reviews-container" data-aos="fade-up">
+            <h2 class="section-title">Ваше мнение важно</h2>
+            <iframe src="https://forms.gle/iLhJXW5TDk2s6FbF9"
+                    width="100%"
+                    height="800"
+                    frameborder="0"
+                    style="border-radius: 15px;">
+            </iframe>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
