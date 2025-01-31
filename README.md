@@ -21,7 +21,7 @@
 ### 1. Клонирование репозитория
 ```bash
 git clone https://github.com/yourusername/techstore.git
-cd techstore
+cd techstoredb
 ```
 
 ### 2. Установка зависимостей
